@@ -59,7 +59,7 @@ const CONFIG = {
   
   HEO_SOCIAL_CARD: true, // 是否显示右侧，点击加入社群按钮
   HEO_SOCIAL_CARD_TITLE_1: '崇实学辅',
-  HEO_SOCIAL_CARD_TITLE_2: '欢饮访问我创建的崇实书院学业辅导中心网站',
+  HEO_SOCIAL_CARD_TITLE_2: '欢迎访问崇实学辅网站',
   HEO_SOCIAL_CARD_TITLE_3: '点击观看',
   HEO_SOCIAL_CARD_URL: 'https://www.csxf.online/about',
 
