@@ -6,10 +6,8 @@ const CONFIG = {
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   HEO_NOTICE_BAR: [
-    { title: '欢迎来到龚运博的个人网站', url: 'https://www.smallq.top/' },
-    { title: '关于我', url: 'https://www.smallq.top/article/115c9f55-1e8c-81c5-b129-c64978c0e28c' }
+    { title: '欢迎来到龚运博的个人网站', url: 'https://www.smallq.top/' }
   ],
-
   // 英雄区左右侧组件颠倒位置
   HEO_HERO_REVERSE: false,
   // 博客主体区左右侧组件颠倒位置
