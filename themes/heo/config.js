@@ -53,14 +53,14 @@ const CONFIG = {
   HEO_INFO_CARD_ICON1: 'fas fa-user',
   HEO_INFO_CARD_URL2: 'https://github.com/SmallsmallQ',
   HEO_INFO_CARD_ICON2: 'fab fa-github',
-  HEO_INFO_CARD_URL3: 'https://www.smallq.top',
-  HEO_INFO_CARD_TEXT3: '了解更多',
+  HEO_INFO_CARD_URL3: 'https://www.smallq.top/about',
+  HEO_INFO_CARD_TEXT3: '关于我',
 
   
   HEO_SOCIAL_CARD: true, // 是否显示右侧，点击加入社群按钮
   HEO_SOCIAL_CARD_TITLE_1: '崇实学辅',
   HEO_SOCIAL_CARD_TITLE_2: '欢迎访问崇实学辅网站',
-  HEO_SOCIAL_CARD_TITLE_3: '点击观看',
+  HEO_SOCIAL_CARD_TITLE_3: '点击进入',
   HEO_SOCIAL_CARD_URL: 'https://www.csxf.online/about',
 
   // *****  以下配置无效，只是预留开发 ****
