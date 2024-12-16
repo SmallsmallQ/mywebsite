@@ -24,8 +24,8 @@ const CONFIG = {
   HEO_HERO_COVER_TITLE: '随便逛逛',
 
   // 英雄区显示三个置顶分类
-  HEO_HERO_CATEGORY_1: { title: '法律', url: '/tag/法律' },
-  HEO_HERO_CATEGORY_2: { title: '随笔', url: '/tag/文字' },
+  HEO_HERO_CATEGORY_1: { title: '工作', url: '/tag/学习' },
+  HEO_HERO_CATEGORY_2: { title: '生活', url: '/tag/生活' },
   HEO_HERO_CATEGORY_3: { title: '关于我', url: '/about' },
 
   // 英雄区右侧推荐文章标签, 例如 [推荐] , 最多六篇文章; 若留空白''，则推荐最近更新文章
