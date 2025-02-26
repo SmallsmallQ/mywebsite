@@ -10,14 +10,13 @@ const CONFIG = {
 
   // 英雄区块导航
   STARTER_HERO_ENABLE: true, // 开启英雄区
-  STARTER_HERO_TITLE_1: '开源且免费的基于 Notion 笔记的网站构建工具', // 英雄区文字
-  STARTER_HERO_TITLE_2: '通过笔记无感知地建站、成倍放大您的价值', // 英雄区文字
+  STARTER_HERO_TITLE_1: '探索法律与科技的融合之路', // 主标题
+  STARTER_HERO_TITLE_2: '关注能源法制建设与碳中和实践创新', // 副标题
   // 英雄区两个按钮，如果TEXT留空则隐藏按钮
-  STARTER_HERO_BUTTON_1_TEXT: '开始体验', // 英雄区按钮
-  STARTER_HERO_BUTTON_1_URL:
-    'https://docs.tangly1024.com/article/vercel-deploy-notion-next', // 英雄区按钮
-  STARTER_HERO_BUTTON_2_TEXT: '在Github上关注', // 英雄区按钮
-  STARTER_HERO_BUTTON_2_URL: 'https://github.com/tangly1024/NotionNext', // 英雄区按钮
+  STARTER_HERO_BUTTON_1_TEXT: '学术研究', // 英雄区按钮
+  STARTER_HERO_BUTTON_1_URL: '/research', // 英雄区按钮
+  STARTER_HERO_BUTTON_2_TEXT: '项目展示', // 英雄区按钮
+  STARTER_HERO_BUTTON_2_URL: '/projects', // 英雄区按钮
   STARTER_HERO_BUTTON_2_ICON: '/images/starter/github.svg', // 英雄区按钮2的图标，不需要则留空
 
   // 英雄区配图，如需隐藏，改为空值即可 ''
@@ -33,24 +32,24 @@ const CONFIG = {
 
   // 特性区块
   STARTER_FEATURE_ENABLE: true, // 特性区块开关
-  STARTER_FEATURE_TITLE: '特性', // 特性
-  STARTER_FEATURE_TEXT_1: 'NotionNext的主要特性', // 特性
+  STARTER_FEATURE_TITLE: '研究领域', // 特性
+  STARTER_FEATURE_TEXT_1: '交叉学科研究与创新实践', // 特性
   STARTER_FEATURE_TEXT_2:
-    'NotionNext的愿景是帮助您简单、无感知地稳定地搭建自己的网站，放大品牌的价值。 ', // 特性
+    '致力于探索法律与科技融合发展的创新路径，推动能源法治建设与绿色发展', // 特性
 
-  STARTER_FEATURE_1_TITLE_1: '免费且开源', // 特性1
-  STARTER_FEATURE_1_TEXT_1: '项目源码在Github上完全开放共享，遵循MIT协议', // 特性1
+  STARTER_FEATURE_1_TITLE_1: '能源法研究', // 特性1
+  STARTER_FEATURE_1_TEXT_1: '聚焦双碳目标下的能源法制建设与实践创新', // 特性1
   STARTER_FEATURE_1_BUTTON_TEXT: '了解更多', // 特性1
   STARTER_FEATURE_1_BUTTON_URL: 'https://github.com/tangly1024/NotionNext', // 特性1
 
-  STARTER_FEATURE_2_TITLE_1: '多种主题定制', // 特性2
-  STARTER_FEATURE_2_TEXT_1: '数十种主题,适用于不同场景，总有一款适合你', // 特性2
+  STARTER_FEATURE_2_TITLE_1: '科技法律', // 特性2
+  STARTER_FEATURE_2_TEXT_1: '关注人工智能、数字化转型中的法律问题', // 特性2
   STARTER_FEATURE_2_BUTTON_TEXT: '了解更多', // 特性2
   STARTER_FEATURE_2_BUTTON_URL:
     'https://docs.tangly1024.com/article/notion-next-themes', // 特性2
 
-  STARTER_FEATURE_3_TITLE_1: '优秀的性能', // 特性3
-  STARTER_FEATURE_3_TEXT_1: '基于NextJS开发，更快的响应速度，更好的SEO', // 特性3
+  STARTER_FEATURE_3_TITLE_1: '产学研协同', // 特性3
+  STARTER_FEATURE_3_TEXT_1: '推动法学理论与实践的深度融合', // 特性3
   STARTER_FEATURE_3_BUTTON_TEXT: '了解更多', // 特性3
   STARTER_FEATURE_3_BUTTON_URL: 'https://docs.tangly1024.com/article/next-js', // 特性3
 
@@ -141,6 +140,7 @@ const CONFIG = {
     {
       STARTER_TESTIMONIALS_ITEM_TEXT:
         '呜呜呜，经过一个下午的努力，终于把博客部署好啦，非常感谢Tangly1024大佬的框架和教程，这是我有生之年用过的最好用的博客框架┭┮﹏┭┮。从今之后，我就可以在自己的博客里bb啦，( •̀ ω •́ )y ',
+      STARTER_TESTIMONIALS_ITEM_AVATAR:
       STARTER_TESTIMONIALS_ITEM_AVATAR:
         'https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F6c096b44-beb9-48ee-8f92-1efdde47f3a3%2F338962f1-d352-49c7-9a1b-746e35a7005c%2Fhf.png?table=block&id=ce5a48a9-d77a-4843-a3d9-a78cd4f794ce&spaceId=6c096b44-beb9-48ee-8f92-1efdde47f3a3&width=100&userId=27074aef-7216-41ed-baef-d9b53addd870&cache=v2',
       STARTER_TESTIMONIALS_ITEM_NICKNAME: 'DWIND',
