@@ -16,7 +16,7 @@ module.exports = {
   ],
   // 无衬线字体 例如'"LXGW WenKai"'
   FONT_SANS: [
-    "LXGW WenKai",
+    // '"LXGW WenKai"',
     '"PingFang SC"',
     '-apple-system',
     'BlinkMacSystemFont',
@@ -36,7 +36,7 @@ module.exports = {
   ],
   // 衬线字体 例如'"LXGW WenKai"'
   FONT_SERIF: [
-    "LXGW WenKai",
+    // '"LXGW WenKai"',
     'Bitter',
     '"Noto Serif SC"',
     'SimSun',
