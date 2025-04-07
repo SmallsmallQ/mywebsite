@@ -1,22 +1,25 @@
 /* eslint-disable react/no-unknown-property */
+import BLOG from '@/blog.config'
+
 /**
- * 此处样式只对当前主题生效
- * 此处不支持tailwindCSS的 @apply 语法
+ * Gitbook主题样式
  * @returns
  */
-const Style = () => {
+export const Style = () => {
   return (
-    <style jsx global>{`
-      // 底色
-      .dark body {
-        background-color: black;
-      }
+    <>
+      <link rel="stylesheet" href="/css/custom-gitbook-theme.css" />
+      
+      <style jsx global>{`
+        // 底色
+        .dark body {
+          background-color: black;
+        }
 
-      .bottom-button-group {
-        box-shadow: 0px -3px 10px 0px rgb(0, 120, 248);
-      }
-    `}</style>
+        .bottom-button-group {
+          box-shadow: 0px -3px 10px 0px rgb(0, 120, 248);
+        }
+      `}</style>
+    </>
   )
 }
-
-export { Style }
