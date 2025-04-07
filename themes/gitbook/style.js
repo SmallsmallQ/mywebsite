@@ -13,7 +13,7 @@ const Style = () => {
       }
 
       .bottom-button-group {
-        box-shadow: 0px -3px 10px 0px rgba(0, 0, 0, 0.1);
+        box-shadow: 0px -3px 10px 0px rgb(0, 120, 248);
       }
     `}</style>
   )
