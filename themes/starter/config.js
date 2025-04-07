@@ -13,7 +13,7 @@ const CONFIG = {
   STARTER_HERO_TITLE_2: '分享法律笔记，记录生活点滴，展示项目成果', // 副标题
 // 英雄区两个按钮，如果TEXT留空则隐藏按钮
   STARTER_HERO_BUTTON_1_TEXT: '法律笔记', // 第一个按钮
-  STARTER_HERO_BUTTON_1_URL: '/legal-study', // 链接到法律笔记
+  STARTER_HERO_BUTTON_1_URL: 'https://docs.smallq.top/', // 链接到法律笔记
   STARTER_HERO_BUTTON_2_TEXT: '婚姻风险评估系统', // 第二个按钮
   STARTER_HERO_BUTTON_2_URL: '/assessment', // 链接到你的评估系统
   STARTER_HERO_BUTTON_3_TEXT: '笔记整理', // 英雄区按钮
