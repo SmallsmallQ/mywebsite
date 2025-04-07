@@ -71,3 +71,56 @@ li.notion-table-of-contents-item a.notion-table-of-contents-active-item {
 #wrapper #center-wrapper a.active {
   color: #1a4b87 !important; /* 深蓝色 */
 }
+
+/* 导航栏活跃项目的颜色 */
+.bg-green-50, .hover\:bg-green-50:hover {
+  background-color: rgba(26, 75, 135, 0.1) !important; /* 淡深蓝色背景 */
+}
+
+.text-green-500, .hover\:text-green-500:hover {
+  color: #1a4b87 !important; /* 深蓝色文本 */
+}
+
+.border-green-500, .hover\:border-green-500:hover,
+.focus\:border-green-500:focus {
+  border-color: #1a4b87 !important; /* 深蓝色边框 */
+}
+
+/* 修改导航栏和菜单项的活跃状态 */
+.active-nav, .active-category, .active {
+  color: #1a4b87 !important;
+  border-color: #1a4b87 !important;
+}
+
+/* 修改顶部导航栏活跃项背景色 */
+.hover\:bg-green-600:hover, .bg-green-600, .bg-green-500 {
+  background-color: #1a4b87 !important; /* 深蓝色背景 */
+}
+
+/* 修改文章目录中的活跃项 */
+.text-blue-500, .hover\:text-blue-500:hover,
+.text-blue-600, .hover\:text-blue-600:hover {
+  color: #1a4b87 !important; /* 深蓝色 */
+}
+
+/* 针对移动端底部导航栏 */
+#bottom-menu-bar .text-green-500 {
+  color: #1a4b87 !important;
+}
+
+/* 针对目录抽屉按钮的活跃状态 */
+.bg-green-500, .hover\:bg-green-500:hover {
+  background-color: #1a4b87 !important;
+}
+
+/* 修改菜单项的悬停和选中状态 */
+.notion-collection-row:hover {
+  background-color: rgba(26, 75, 135, 0.1) !important;
+}
+
+/* 针对其他可能的绿色元素 */
+[class*="green"] {
+  color: #1a4b87 !important;
+  background-color: rgba(26, 75, 135, 0.1) !important;
+  border-color: #1a4b87 !important;
+}
