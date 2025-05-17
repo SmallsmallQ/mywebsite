@@ -10,7 +10,7 @@ const CONFIG = {
 // 英雄区块导航
   STARTER_HERO_ENABLE: true, // 开启英雄区
   STARTER_HERO_TITLE_1: '小Q的个人网站', // 主标题
-  STARTER_HERO_TITLE_2: '分享法律笔记，记录生活点滴，展示项目成果', // 副标题
+  STARTER_HERO_TITLE_2: '分享法律笔记，记录生活，展示项目成果', // 副标题
 // 英雄区两个按钮，如果TEXT留空则隐藏按钮
   STARTER_HERO_BUTTON_1_TEXT: '法律笔记', // 第一个按钮
   STARTER_HERO_BUTTON_1_URL: 'https://docs.smallsmallq.com/', // 链接到法律笔记
